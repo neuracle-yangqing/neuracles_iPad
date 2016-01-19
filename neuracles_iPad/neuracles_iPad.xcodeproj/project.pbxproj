@@ -11,6 +11,10 @@
 		B31DCE091C4CCACB0001E632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31DCE081C4CCACB0001E632 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		B31DCE1B1C4CCDB40001E632 /* YQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31DCE191C4CCDB40001E632 /* YQLoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B31DCE1F1C4CCDF30001E632 /* YQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31DCE1E1C4CCDF30001E632 /* YQViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3B670011C4DCDE1006CB4DC /* YQTarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3B670041C4DCDF9006CB4DC /* YQLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3B670071C4DCE0D006CB4DC /* YQrightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3B6700D1C4E138B006CB4DC /* YQCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3E7C9F21C4CAC2800F58400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7C9F11C4CAC2800F58400 /* main.m */; };
 		B3E7C9FB1C4CAC2800F58400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E7C9F91C4CAC2800F58400 /* Main.storyboard */; };
 		B3E7C9FD1C4CAC2800F58400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E7C9FC1C4CAC2800F58400 /* Assets.xcassets */; };
@@ -45,6 +49,14 @@
 		B31DCE191C4CCDB40001E632 /* YQLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLoginViewController.m; sourceTree = "<group>"; };
 		B31DCE1D1C4CCDF30001E632 /* YQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQViewController.h; sourceTree = "<group>"; };
 		B31DCE1E1C4CCDF30001E632 /* YQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQViewController.m; sourceTree = "<group>"; };
+		B3B66FFF1C4DCDE1006CB4DC /* YQTarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTarViewController.h; sourceTree = "<group>"; };
+		B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTarViewController.m; sourceTree = "<group>"; };
+		B3B670021C4DCDF9006CB4DC /* YQLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLeftViewController.h; sourceTree = "<group>"; };
+		B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLeftViewController.m; sourceTree = "<group>"; };
+		B3B670051C4DCE0D006CB4DC /* YQrightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQrightViewController.h; sourceTree = "<group>"; };
+		B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQrightViewController.m; sourceTree = "<group>"; };
+		B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCenterViewController.h; sourceTree = "<group>"; };
+		B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCenterViewController.m; sourceTree = "<group>"; };
 		B3E7C9ED1C4CAC2800F58400 /* neuracles_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neuracles_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7C9F11C4CAC2800F58400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3E7C9FA1C4CAC2800F58400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +148,14 @@
 			children = (
 				B31DCE1D1C4CCDF30001E632 /* YQViewController.h */,
 				B31DCE1E1C4CCDF30001E632 /* YQViewController.m */,
+				B3B66FFF1C4DCDE1006CB4DC /* YQTarViewController.h */,
+				B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */,
+				B3B670021C4DCDF9006CB4DC /* YQLeftViewController.h */,
+				B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */,
+				B3B670051C4DCE0D006CB4DC /* YQrightViewController.h */,
+				B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */,
+				B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */,
+				B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */,
 			);
 			path = "Controller(控制器)";
 			sourceTree = "<group>";
@@ -407,9 +427,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B670011C4DCDE1006CB4DC /* YQTarViewController.m in Sources */,
 				B31DCE1B1C4CCDB40001E632 /* YQLoginViewController.m in Sources */,
 				B31DCE091C4CCACB0001E632 /* AppDelegate.m in Sources */,
+				B3B670041C4DCDF9006CB4DC /* YQLeftViewController.m in Sources */,
 				B31DCE1F1C4CCDF30001E632 /* YQViewController.m in Sources */,
+				B3B6700D1C4E138B006CB4DC /* YQCenterViewController.m in Sources */,
+				B3B670071C4DCE0D006CB4DC /* YQrightViewController.m in Sources */,
 				B3E7C9F21C4CAC2800F58400 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
