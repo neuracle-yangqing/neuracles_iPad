@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "YQViewController.h"
+#import "YQLoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UIStoryboard *storyaboard = [UIStoryboard storyboardWithName:@"YQLoginViewController" bundle:nil];
+    
+    YQLoginViewController * login = [storyaboard instantiateInitialViewController];
+    
+    self.window.rootViewController = login;
+    //让窗口成为主窗口;
+    [self.window makeKeyAndVisible];
+    
 
     return YES;
 }

@@ -7,12 +7,13 @@
 //
 
 #import "YQLoginViewController.h"
+#import "HMTabBarController.h"
 #import "YQViewController.h"
-
 #define myFrame [UIScreen mainScreen].bounds
 
 @interface YQLoginViewController ()
-@property(nonatomic,strong)YQViewController * homeVC;
+@property(nonatomic,strong)HMTabBarController * homeVC;
+
 @end
 
 @implementation YQLoginViewController
@@ -26,14 +27,13 @@
 /**
  *  点击登录按钮弹出控制器
  */
-- (IBAction)saveButton {
+- (IBAction)clickCenterButtton:(id)sender {
     //创建进入下一home控制器
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    HMTabBarController * homeVC = [[HMTabBarController alloc]init];
+    self.homeVC = homeVC;
+    window.rootViewController = homeVC;
     
-    YQViewController * homeVC = [[YQViewController alloc]init];
-    homeVC.view.backgroundColor = [UIColor whiteColor
-                                   ];
-    
-    [self.navigationController pushViewController:homeVC animated:YES];
 }
 
 

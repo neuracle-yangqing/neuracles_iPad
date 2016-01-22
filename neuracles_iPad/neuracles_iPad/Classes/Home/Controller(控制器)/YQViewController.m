@@ -13,35 +13,30 @@
 
 #import "YQconstTOOLs.h"
 #import "YQViewController.h"
-#import "YQTarViewController.h"
-#import "YQrightViewController.h"
-#import "YQLeftViewController.h"
-#import "YQrightViewController.h"
-#import "YQCenterViewController.h"
+
 #import "YQchlidView.h"
 
-#define myFrame [UIScreen mainScreen].bounds
+
 
 @interface YQViewController ()
 //底部的视图
-@property(nonatomic, strong)YQchlidView * TarView;
+@property(nonatomic, weak)YQchlidView * TarView;
 //左边的视图
-@property(nonatomic, strong)YQchlidView * leftView;
+@property(nonatomic, weak)YQchlidView * leftView;
 //右边的视图
-@property(nonatomic, strong)YQchlidView * rightView;
+@property(nonatomic, weak)YQchlidView * rightView;
 //中间视图
-@property(nonatomic, strong)YQchlidView * centerView;
+@property(nonatomic, weak)YQchlidView * centerView;
+
 @end
 
 @implementation YQViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //1.初始化主控制器,设置标题和按钮
     self.title = @"Monitor";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"添加" style:UIBarButtonItemStyleDone target:self action:@selector(addNew)];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"页面列表" style:UIBarButtonItemStyleDone target:self action:@selector(PageList)];
-
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Add" style:UIBarButtonItemStyleDone target:self action:@selector(addNew)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"PageList" style:UIBarButtonItemStyleDone target:self action:@selector(PageList)];
     //2.创建加载子控制(一共有4个)
     [self setUpChildVC];
     
@@ -49,11 +44,19 @@
     self.view.translatesAutoresizingMaskIntoConstraints = NO;
     self.TarView.translatesAutoresizingMaskIntoConstraints = NO;
 
-    //3.根据现在的frame 的值来设置TarView的frame
-    [self viewWillTransitionToSize:myFrame.size withTransitionCoordinator:nil];
-
+    [self viewWillTransitionToSize:self.view.frame.size withTransitionCoordinator:nil];
+    
 }
 
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self setUpChildVC];
+    }
+    return self;
+}
 
 #pragma mark - 监听屏幕旋转 (new)
 -(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator{
@@ -79,9 +82,7 @@
         centerFrame = CGRectMake(self.leftView.frame.size.width, navBar, self.rightView.frame.origin.x - self.leftView.frame.size.width, self.leftView.frame.size.height);
         self.centerView.frame = centerFrame;
     }];
-    
 }
-
 
 #pragma mark - 内部控制器和view的添加
 /**
@@ -108,25 +109,7 @@
     
     self.centerView = centerView;
     [self.view addSubview:centerView];
-    //YQ-TarVC
-//    YQTarViewController * TarVC = [[YQTarViewController alloc]init];
-//    TarVC.view.backgroundColor = [UIColor purpleColor];
-   // TarVC.view.frame = CGRectMake(0, 0, 500, 100);
-//    self.TarView = TarVC.view;
-//    [self addChildViewController:TarVC];
-//    [self.view addSubview:TarVC.view];
-//    //YQ-leftVC
-//    YQLeftViewController * leftVC = [[YQLeftViewController alloc]init];
-//    leftVC.view.backgroundColor = [UIColor colorWithRed:((arc4random_uniform(256)/255.0)) green:(arc4random_uniform(256)/255.0) blue:(arc4random_uniform(256)/255.0) alpha:1.0];
-//    [self addChildViewController:leftVC];
-//    //YQ-rightVC
-//    YQrightViewController * rightVC = [[YQrightViewController alloc]init];
-//    rightVC.view.backgroundColor = [UIColor colorWithRed:((arc4random_uniform(256)/255.0)) green:(arc4random_uniform(256)/255.0) blue:(arc4random_uniform(256)/255.0) alpha:1.0];
-//    [self addChildViewController:rightVC];
-//    //YQ-centerVC
-//    YQCenterViewController * centerVC = [[YQCenterViewController alloc]init];
-//    centerVC.view.backgroundColor = [UIColor colorWithRed:((arc4random_uniform(256)/255.0)) green:(arc4random_uniform(256)/255.0) blue:(arc4random_uniform(256)/255.0) alpha:1.0];
-//    [self addChildViewController:centerVC];
+
 }
 
 #pragma mark - 设置的是各种的控件的布局

@@ -1,16 +1,13 @@
 //
-//  YQViewController.h
+//  YQhomeViewController.h
 //  neuracles_iPad
 //
-//  Created by neuracle on 16/1/18.
+//  Created by neuracle on 16/1/21.
 //  Copyright © 2016年 neuracle. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface YQViewController : UIViewController
-
+@interface YQhomeViewController : UIViewController
 -(void)setTarviewFunction;
-
 @end
-

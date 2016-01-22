@@ -20,18 +20,32 @@
 		B35806411C4F600A0010896A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B35806341C4F600A0010896A /* NSArray+MASAdditions.m */; };
 		B35806421C4F600A0010896A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B35806371C4F600A0010896A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		B35806431C4F600A0010896A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B35806391C4F600A0010896A /* View+MASAdditions.m */; };
+		B366E32C1C51046800B6F770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B366E32A1C51046800B6F770 /* Main.storyboard */; };
 		B3B670011C4DCDE1006CB4DC /* YQTarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */; };
 		B3B670041C4DCDF9006CB4DC /* YQLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */; };
 		B3B670071C4DCE0D006CB4DC /* YQrightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */; };
 		B3B6700D1C4E138B006CB4DC /* YQCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */; };
 		B3B670181C4E2ED8006CB4DC /* YQconstTOOLs.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B670171C4E2ED8006CB4DC /* YQconstTOOLs.m */; };
+		B3BC13831C506A8500B8D099 /* YQTarButtonContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC13821C506A8500B8D099 /* YQTarButtonContorller.m */; };
+		B3BC13901C509D1200B8D099 /* YQlookBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC138E1C509D1200B8D099 /* YQlookBackViewController.m */; };
+		B3BC13951C50A21800B8D099 /* YQsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC13931C50A21800B8D099 /* YQsetViewController.m */; };
+		B3BC139D1C50B39600B8D099 /* YQhomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BC139B1C50B39600B8D099 /* YQhomeViewController.m */; };
+		B3BC139E1C50B39600B8D099 /* YQhomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BC139C1C50B39600B8D099 /* YQhomeViewController.xib */; };
+		B3E408771C511B7C009EE4FD /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E4086E1C511B7C009EE4FD /* HMNavigationController.m */; };
+		B3E408781C511B7C009EE4FD /* HMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E408701C511B7C009EE4FD /* HMTabBarController.m */; };
+		B3E408791C511B7C009EE4FD /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E408741C511B7C009EE4FD /* HMTabBar.m */; };
+		B3E4087A1C511B7C009EE4FD /* HMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E408761C511B7C009EE4FD /* HMTabBarButton.m */; };
 		B3E7C9F21C4CAC2800F58400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7C9F11C4CAC2800F58400 /* main.m */; };
-		B3E7C9FB1C4CAC2800F58400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E7C9F91C4CAC2800F58400 /* Main.storyboard */; };
 		B3E7C9FD1C4CAC2800F58400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E7C9FC1C4CAC2800F58400 /* Assets.xcassets */; };
 		B3E7CA001C4CAC2800F58400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E7C9FE1C4CAC2800F58400 /* LaunchScreen.storyboard */; };
 		B3E7CA0B1C4CAC2800F58400 /* neuracles_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7CA0A1C4CAC2800F58400 /* neuracles_iPadTests.m */; };
 		B3E7CA161C4CAC2800F58400 /* neuracles_iPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7CA151C4CAC2800F58400 /* neuracles_iPadUITests.m */; };
-		B3F804401C4F7DB600004EF5 /* YQchlidView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F8043F1C4F7DB600004EF5 /* YQchlidView.m */; settings = {ASSET_TAGS = (); }; };
+		B3F7CAE81C51F22000029275 /* YQViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F7CAE71C51F22000029275 /* YQViewController.storyboard */; };
+		B3F7CAEA1C51F76D00029275 /* YQsetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F7CAE91C51F76D00029275 /* YQsetViewController.storyboard */; };
+		B3F7CAEC1C51F79900029275 /* YQlookBackViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F7CAEB1C51F79900029275 /* YQlookBackViewController.storyboard */; };
+		B3F7CAEE1C51F84C00029275 /* YQCenterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F7CAED1C51F84C00029275 /* YQCenterViewController.storyboard */; };
+		B3F7CAF01C5201BB00029275 /* YQLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F7CAEF1C5201BB00029275 /* YQLoginViewController.storyboard */; };
+		B3F804401C4F7DB600004EF5 /* YQchlidView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F8043F1C4F7DB600004EF5 /* YQchlidView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,19 +97,36 @@
 		B35806381C4F600A0010896A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
 		B35806391C4F600A0010896A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
 		B358063A1C4F600A0010896A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B366E32B1C51046800B6F770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3B66FFF1C4DCDE1006CB4DC /* YQTarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTarViewController.h; sourceTree = "<group>"; };
 		B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTarViewController.m; sourceTree = "<group>"; };
 		B3B670021C4DCDF9006CB4DC /* YQLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLeftViewController.h; sourceTree = "<group>"; };
 		B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLeftViewController.m; sourceTree = "<group>"; };
 		B3B670051C4DCE0D006CB4DC /* YQrightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQrightViewController.h; sourceTree = "<group>"; };
 		B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQrightViewController.m; sourceTree = "<group>"; };
-		B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCenterViewController.h; sourceTree = "<group>"; };
-		B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCenterViewController.m; sourceTree = "<group>"; };
+		B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQCenterViewController.h; path = "../Home/Controller(控制器)/YQCenterViewController.h"; sourceTree = "<group>"; };
+		B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQCenterViewController.m; path = "../Home/Controller(控制器)/YQCenterViewController.m"; sourceTree = "<group>"; };
 		B3B670161C4E2ED8006CB4DC /* YQconstTOOLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQconstTOOLs.h; sourceTree = "<group>"; };
 		B3B670171C4E2ED8006CB4DC /* YQconstTOOLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQconstTOOLs.m; sourceTree = "<group>"; };
+		B3BC13811C506A8500B8D099 /* YQTarButtonContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTarButtonContorller.h; sourceTree = "<group>"; };
+		B3BC13821C506A8500B8D099 /* YQTarButtonContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTarButtonContorller.m; sourceTree = "<group>"; };
+		B3BC138D1C509D1200B8D099 /* YQlookBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQlookBackViewController.h; path = "../Home/Controller(控制器)/YQlookBackViewController.h"; sourceTree = "<group>"; };
+		B3BC138E1C509D1200B8D099 /* YQlookBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQlookBackViewController.m; path = "../Home/Controller(控制器)/YQlookBackViewController.m"; sourceTree = "<group>"; };
+		B3BC13921C50A21800B8D099 /* YQsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQsetViewController.h; path = "../Home/Controller(控制器)/YQsetViewController.h"; sourceTree = "<group>"; };
+		B3BC13931C50A21800B8D099 /* YQsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQsetViewController.m; path = "../Home/Controller(控制器)/YQsetViewController.m"; sourceTree = "<group>"; };
+		B3BC139A1C50B39600B8D099 /* YQhomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQhomeViewController.h; sourceTree = "<group>"; };
+		B3BC139B1C50B39600B8D099 /* YQhomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQhomeViewController.m; sourceTree = "<group>"; };
+		B3BC139C1C50B39600B8D099 /* YQhomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQhomeViewController.xib; sourceTree = "<group>"; };
+		B3E4086D1C511B7C009EE4FD /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		B3E4086E1C511B7C009EE4FD /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		B3E4086F1C511B7C009EE4FD /* HMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarController.h; sourceTree = "<group>"; };
+		B3E408701C511B7C009EE4FD /* HMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarController.m; sourceTree = "<group>"; };
+		B3E408731C511B7C009EE4FD /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
+		B3E408741C511B7C009EE4FD /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
+		B3E408751C511B7C009EE4FD /* HMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarButton.h; sourceTree = "<group>"; };
+		B3E408761C511B7C009EE4FD /* HMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarButton.m; sourceTree = "<group>"; };
 		B3E7C9ED1C4CAC2800F58400 /* neuracles_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neuracles_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7C9F11C4CAC2800F58400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3E7C9FA1C4CAC2800F58400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3E7C9FC1C4CAC2800F58400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E7C9FF1C4CAC2800F58400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3E7CA011C4CAC2800F58400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +136,11 @@
 		B3E7CA111C4CAC2800F58400 /* neuracles_iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neuracles_iPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7CA151C4CAC2800F58400 /* neuracles_iPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neuracles_iPadUITests.m; sourceTree = "<group>"; };
 		B3E7CA171C4CAC2800F58400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F7CAE71C51F22000029275 /* YQViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YQViewController.storyboard; sourceTree = "<group>"; };
+		B3F7CAE91C51F76D00029275 /* YQsetViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YQsetViewController.storyboard; sourceTree = "<group>"; };
+		B3F7CAEB1C51F79900029275 /* YQlookBackViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YQlookBackViewController.storyboard; sourceTree = "<group>"; };
+		B3F7CAED1C51F84C00029275 /* YQCenterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YQCenterViewController.storyboard; sourceTree = "<group>"; };
+		B3F7CAEF1C5201BB00029275 /* YQLoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YQLoginViewController.storyboard; sourceTree = "<group>"; };
 		B3F8043E1C4F7DB600004EF5 /* YQchlidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQchlidView.h; sourceTree = "<group>"; };
 		B3F8043F1C4F7DB600004EF5 /* YQchlidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQchlidView.m; sourceTree = "<group>"; };
 		D5F6A768EB4A356AB29543AE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +201,10 @@
 		B31DCE0A1C4CCC770001E632 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B3F7CAE41C51D23B00029275 /* Case */,
+				B3F7CAE51C51D23B00029275 /* Look Back */,
+				B3F7CAE61C51D23B00029275 /* Setting */,
+				B3E4086B1C511B7C009EE4FD /* Main */,
 				B31DCE0B1C4CCC770001E632 /* Home */,
 				B31DCE0F1C4CCC770001E632 /* Login */,
 			);
@@ -186,14 +226,16 @@
 			children = (
 				B31DCE1D1C4CCDF30001E632 /* YQViewController.h */,
 				B31DCE1E1C4CCDF30001E632 /* YQViewController.m */,
+				B3F7CAE71C51F22000029275 /* YQViewController.storyboard */,
 				B3B66FFF1C4DCDE1006CB4DC /* YQTarViewController.h */,
 				B3B670001C4DCDE1006CB4DC /* YQTarViewController.m */,
 				B3B670021C4DCDF9006CB4DC /* YQLeftViewController.h */,
 				B3B670031C4DCDF9006CB4DC /* YQLeftViewController.m */,
 				B3B670051C4DCE0D006CB4DC /* YQrightViewController.h */,
 				B3B670061C4DCE0D006CB4DC /* YQrightViewController.m */,
-				B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */,
-				B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */,
+				B3BC139A1C50B39600B8D099 /* YQhomeViewController.h */,
+				B3BC139B1C50B39600B8D099 /* YQhomeViewController.m */,
+				B3BC139C1C50B39600B8D099 /* YQhomeViewController.xib */,
 			);
 			path = "Controller(控制器)";
 			sourceTree = "<group>";
@@ -210,6 +252,8 @@
 			children = (
 				B3F8043E1C4F7DB600004EF5 /* YQchlidView.h */,
 				B3F8043F1C4F7DB600004EF5 /* YQchlidView.m */,
+				B3BC13811C506A8500B8D099 /* YQTarButtonContorller.h */,
+				B3BC13821C506A8500B8D099 /* YQTarButtonContorller.m */,
 			);
 			path = "View(视图)";
 			sourceTree = "<group>";
@@ -219,6 +263,7 @@
 			children = (
 				B31DCE181C4CCDB40001E632 /* YQLoginViewController.h */,
 				B31DCE191C4CCDB40001E632 /* YQLoginViewController.m */,
+				B3F7CAEF1C5201BB00029275 /* YQLoginViewController.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -279,6 +324,46 @@
 			path = ToolsClass;
 			sourceTree = "<group>";
 		};
+		B3E4086B1C511B7C009EE4FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B3E4086C1C511B7C009EE4FD /* Controller */,
+				B3E408711C511B7C009EE4FD /* Model */,
+				B3E408721C511B7C009EE4FD /* View */,
+			);
+			name = Main;
+			path = Login/Main;
+			sourceTree = "<group>";
+		};
+		B3E4086C1C511B7C009EE4FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3E4086D1C511B7C009EE4FD /* HMNavigationController.h */,
+				B3E4086E1C511B7C009EE4FD /* HMNavigationController.m */,
+				B3E4086F1C511B7C009EE4FD /* HMTabBarController.h */,
+				B3E408701C511B7C009EE4FD /* HMTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3E408711C511B7C009EE4FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3E408721C511B7C009EE4FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3E408731C511B7C009EE4FD /* HMTabBar.h */,
+				B3E408741C511B7C009EE4FD /* HMTabBar.m */,
+				B3E408751C511B7C009EE4FD /* HMTabBarButton.h */,
+				B3E408761C511B7C009EE4FD /* HMTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B3E7C9E41C4CAC2800F58400 = {
 			isa = PBXGroup;
 			children = (
@@ -315,8 +400,8 @@
 		B3E7C9F01C4CAC2800F58400 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B366E32A1C51046800B6F770 /* Main.storyboard */,
 				B3E7C9FC1C4CAC2800F58400 /* Assets.xcassets */,
-				B3E7C9F91C4CAC2800F58400 /* Main.storyboard */,
 				B3E7C9FE1C4CAC2800F58400 /* LaunchScreen.storyboard */,
 				B3E7CA011C4CAC2800F58400 /* Info.plist */,
 				B3E7C9F11C4CAC2800F58400 /* main.m */,
@@ -340,6 +425,36 @@
 				B3E7CA171C4CAC2800F58400 /* Info.plist */,
 			);
 			path = neuracles_iPadUITests;
+			sourceTree = "<group>";
+		};
+		B3F7CAE41C51D23B00029275 /* Case */ = {
+			isa = PBXGroup;
+			children = (
+				B3B6700B1C4E138B006CB4DC /* YQCenterViewController.h */,
+				B3B6700C1C4E138B006CB4DC /* YQCenterViewController.m */,
+				B3F7CAED1C51F84C00029275 /* YQCenterViewController.storyboard */,
+			);
+			path = Case;
+			sourceTree = "<group>";
+		};
+		B3F7CAE51C51D23B00029275 /* Look Back */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC138D1C509D1200B8D099 /* YQlookBackViewController.h */,
+				B3BC138E1C509D1200B8D099 /* YQlookBackViewController.m */,
+				B3F7CAEB1C51F79900029275 /* YQlookBackViewController.storyboard */,
+			);
+			path = "Look Back";
+			sourceTree = "<group>";
+		};
+		B3F7CAE61C51D23B00029275 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC13921C50A21800B8D099 /* YQsetViewController.h */,
+				B3BC13931C50A21800B8D099 /* YQsetViewController.m */,
+				B3F7CAE91C51F76D00029275 /* YQsetViewController.storyboard */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,9 +564,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F7CAEA1C51F76D00029275 /* YQsetViewController.storyboard in Resources */,
 				B3E7CA001C4CAC2800F58400 /* LaunchScreen.storyboard in Resources */,
+				B366E32C1C51046800B6F770 /* Main.storyboard in Resources */,
+				B3F7CAEC1C51F79900029275 /* YQlookBackViewController.storyboard in Resources */,
+				B3BC139E1C50B39600B8D099 /* YQhomeViewController.xib in Resources */,
 				B3E7C9FD1C4CAC2800F58400 /* Assets.xcassets in Resources */,
-				B3E7C9FB1C4CAC2800F58400 /* Main.storyboard in Resources */,
+				B3F7CAEE1C51F84C00029275 /* YQCenterViewController.storyboard in Resources */,
+				B3F7CAF01C5201BB00029275 /* YQLoginViewController.storyboard in Resources */,
+				B3F7CAE81C51F22000029275 /* YQViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,19 +649,27 @@
 				B3B670011C4DCDE1006CB4DC /* YQTarViewController.m in Sources */,
 				B31DCE1B1C4CCDB40001E632 /* YQLoginViewController.m in Sources */,
 				B3F804401C4F7DB600004EF5 /* YQchlidView.m in Sources */,
+				B3E4087A1C511B7C009EE4FD /* HMTabBarButton.m in Sources */,
 				B3B670181C4E2ED8006CB4DC /* YQconstTOOLs.m in Sources */,
 				B31DCE091C4CCACB0001E632 /* AppDelegate.m in Sources */,
 				B358063F1C4F600A0010896A /* MASViewAttribute.m in Sources */,
 				B358063B1C4F600A0010896A /* MASCompositeConstraint.m in Sources */,
 				B3B670041C4DCDF9006CB4DC /* YQLeftViewController.m in Sources */,
 				B31DCE1F1C4CCDF30001E632 /* YQViewController.m in Sources */,
+				B3BC13951C50A21800B8D099 /* YQsetViewController.m in Sources */,
+				B3E408781C511B7C009EE4FD /* HMTabBarController.m in Sources */,
+				B3E408791C511B7C009EE4FD /* HMTabBar.m in Sources */,
 				B358063D1C4F600A0010896A /* MASConstraintMaker.m in Sources */,
+				B3BC13831C506A8500B8D099 /* YQTarButtonContorller.m in Sources */,
 				B358063C1C4F600A0010896A /* MASConstraint.m in Sources */,
 				B35806421C4F600A0010896A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				B358063E1C4F600A0010896A /* MASLayoutConstraint.m in Sources */,
 				B35806411C4F600A0010896A /* NSArray+MASAdditions.m in Sources */,
 				B3B6700D1C4E138B006CB4DC /* YQCenterViewController.m in Sources */,
+				B3BC13901C509D1200B8D099 /* YQlookBackViewController.m in Sources */,
 				B3B670071C4DCE0D006CB4DC /* YQrightViewController.m in Sources */,
+				B3E408771C511B7C009EE4FD /* HMNavigationController.m in Sources */,
+				B3BC139D1C50B39600B8D099 /* YQhomeViewController.m in Sources */,
 				B3E7C9F21C4CAC2800F58400 /* main.m in Sources */,
 				B35806401C4F600A0010896A /* MASViewConstraint.m in Sources */,
 			);
@@ -578,10 +707,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B3E7C9F91C4CAC2800F58400 /* Main.storyboard */ = {
+		B366E32A1C51046800B6F770 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B3E7C9FA1C4CAC2800F58400 /* Base */,
+				B366E32B1C51046800B6F770 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
